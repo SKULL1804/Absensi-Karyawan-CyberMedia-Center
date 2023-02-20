@@ -1,0 +1,9 @@
+$(document).ready(function(){
+    $('.form-check-input').click(function(){
+        if($(this).is(':checked')){
+            $('.form-control').attr('type','text');
+        }else{
+            $('.form-control').attr('type','password');
+        }
+    });
+});
